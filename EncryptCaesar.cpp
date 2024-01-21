@@ -9,7 +9,7 @@ int numEncrypt() {                                               /*Метод д
     while (true)
     {
         int n;
-        cout << " Enter encrypt: ";
+        cout << " Enter encrypt:\n ";
         std::cin >> n;
 
         if (std::cin.fail() || std::cin.peek() != '\n')
